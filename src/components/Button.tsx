@@ -5,13 +5,13 @@ type Variant = "primary" | "secondary" | "ghost" | "light";
 
 const styles: Record<Variant, string> = {
   primary:
-    "bg-teal text-white hover:bg-aqua focus-visible:ring-aqua-bright",
+    "bg-teal text-white hover:bg-aqua focus-visible:ring-aqua",
   secondary:
-    "bg-transparent text-ink border border-ink/20 hover:border-teal/60 hover:text-teal focus-visible:ring-ink/30",
+    "bg-white text-ink border border-line hover:border-teal/50 hover:text-teal focus-visible:ring-teal/30",
   ghost:
     "bg-transparent text-white border border-white/40 hover:bg-white/10 focus-visible:ring-white/40",
   light:
-    "bg-white text-navy hover:bg-paper focus-visible:ring-white",
+    "bg-white text-navy hover:bg-slate-100 focus-visible:ring-white",
 };
 
 type ButtonProps = {

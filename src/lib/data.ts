@@ -1,7 +1,7 @@
 export const company = {
   name: "WebTech Solutions",
   shortName: "WebTech",
-  tagline: "Technology partner for ambitious teams",
+  tagline: "AI-native technology partner for ambitious teams",
   email: "hello@webtechsolutions.com",
   phone: "+1 (415) 555-0148",
   location: "San Francisco · Remote worldwide",

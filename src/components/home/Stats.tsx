@@ -50,7 +50,7 @@ export function Stats() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="border-b border-line bg-white">
+    <section className="border-b border-line bg-paper">
       <div
         ref={ref}
         className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-5 py-14 md:grid-cols-4 md:px-8 md:py-16"

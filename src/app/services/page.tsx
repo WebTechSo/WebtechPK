@@ -19,7 +19,7 @@ export default function ServicesPage() {
         title="End-to-end capabilities for AI-era delivery."
         description="Whether you need a focused AI pod, a modernization program, or a long-term engineering partner, we bring strategy and execution under one roof."
       >
-        <Button href="/contact" variant="light">
+        <Button href="/contact" variant="primary">
           Discuss your roadmap
         </Button>
       </PageHero>

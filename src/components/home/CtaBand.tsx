@@ -1,34 +1,25 @@
-import Image from "next/image";
 import { Button } from "@/components/Button";
 import { Reveal } from "@/components/Reveal";
 
 export function CtaBand() {
   return (
-    <section className="relative overflow-hidden bg-[#0b0f16] py-20 text-white md:py-24">
-      <div className="absolute inset-0">
-        <Image
-          src="/hero-ai-bg.png"
-          alt=""
-          fill
-          sizes="100vw"
-          className="object-cover object-[70%_center] opacity-70"
-        />
-        <div
-          className="absolute inset-0 bg-gradient-to-r from-[#0b0f16]/95 via-[#0b0f16]/80 to-[#0b0f16]/55"
-          aria-hidden
-        />
-      </div>
-      <div className="relative mx-auto max-w-6xl px-5 md:px-8">
+    <section className="bg-navy py-20 text-white md:py-24">
+      <div className="mx-auto max-w-6xl px-5 md:px-8">
         <Reveal>
-          <div className="max-w-2xl">
-            <h2 className="font-display text-3xl font-bold tracking-tight md:text-4xl">
-              Ready to power your next transformation?
-            </h2>
-            <p className="mt-4 text-base leading-relaxed text-white/85 md:text-lg">
-              Tell us where you are stuck—AI pilots, legacy systems, or a new
-              product bet—and we’ll map a practical path forward.
-            </p>
-            <div className="mt-8">
+          <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+            <div className="max-w-2xl">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-sky">
+                Next step
+              </p>
+              <h2 className="mt-3 font-display text-3xl font-bold tracking-tight md:text-4xl">
+                Ready to make AI and software deliver?
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-white/75 md:text-lg">
+                Share your goals—AI pilots, modernization, or a new product—and
+                we’ll respond with a clear, practical path forward.
+              </p>
+            </div>
+            <div className="shrink-0">
               <Button href="/contact" variant="light">
                 Get in touch
               </Button>

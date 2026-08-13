@@ -6,11 +6,13 @@ import { ServicesPreview } from "@/components/home/ServicesPreview";
 import { Stats } from "@/components/home/Stats";
 import { Technologies } from "@/components/home/Technologies";
 import { Testimonials } from "@/components/home/Testimonials";
+import { TrustBar } from "@/components/home/TrustBar";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
+      <TrustBar />
       <Stats />
       <ServicesPreview />
       <CaseStudies />
