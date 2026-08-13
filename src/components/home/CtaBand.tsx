@@ -1,17 +1,23 @@
+import Image from "next/image";
 import { Button } from "@/components/Button";
 import { Reveal } from "@/components/Reveal";
 
 export function CtaBand() {
   return (
-    <section className="relative overflow-hidden bg-navy py-20 text-white md:py-24">
-      <div
-        className="absolute inset-0 opacity-40"
-        style={{
-          background:
-            "radial-gradient(ellipse 70% 80% at 80% 20%, rgba(47,142,240,0.55), transparent 55%), radial-gradient(ellipse 50% 50% at 10% 90%, rgba(91,184,255,0.25), transparent 50%)",
-        }}
-        aria-hidden
-      />
+    <section className="relative overflow-hidden bg-[#0b0f16] py-20 text-white md:py-24">
+      <div className="absolute inset-0">
+        <Image
+          src="/hero-ai-bg.png"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover object-[70%_center] opacity-70"
+        />
+        <div
+          className="absolute inset-0 bg-gradient-to-r from-[#0b0f16]/95 via-[#0b0f16]/80 to-[#0b0f16]/55"
+          aria-hidden
+        />
+      </div>
       <div className="relative mx-auto max-w-6xl px-5 md:px-8">
         <Reveal>
           <div className="max-w-2xl">

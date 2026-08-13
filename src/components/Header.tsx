@@ -34,7 +34,7 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 md:h-20 md:px-8">
-        <Logo priority variant={solid ? "light" : "dark"} />
+        <Logo variant={solid ? "light" : "dark"} />
 
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => {
@@ -62,7 +62,7 @@ export function Header() {
             className={`rounded-md px-4 py-2 text-sm font-semibold transition ${
               solid
                 ? "bg-teal text-white hover:bg-aqua"
-                : "bg-sky text-white hover:bg-aqua-bright"
+                : "bg-white text-ink hover:bg-white/90"
             }`}
           >
             Get in touch

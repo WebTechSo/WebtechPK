@@ -4,7 +4,7 @@ import { company, navLinks, services } from "@/lib/data";
 
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 bg-navy text-white">
+    <footer className="border-t border-line bg-ink text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 md:grid-cols-[1.3fr_1fr_1fr] md:px-8">
         <div>
           <Logo size="footer" variant="dark" />
@@ -16,7 +16,7 @@ export function Footer() {
         </div>
 
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-aqua-bright">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
             Explore
           </p>
           <ul className="mt-4 space-y-2.5">
@@ -34,7 +34,7 @@ export function Footer() {
         </div>
 
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-aqua-bright">
+          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-white/50">
             Capabilities
           </p>
           <ul className="mt-4 space-y-2.5">
